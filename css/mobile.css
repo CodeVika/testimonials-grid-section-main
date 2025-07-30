@@ -1,0 +1,32 @@
+@media screen and (max-width: 1130px) {
+  body {
+    padding-block: 71px;
+    main {
+      margin-inline: auto;
+      max-width: calc(100% - 3rem);
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(5, auto);
+      grid-template-areas:
+        "daniel"
+        "jonathan"
+        "jeanette"
+        "patrick"
+        "kira";
+      .daniel {
+        background-position: right 24px top;
+        h3 {
+          margin-block-end: 2.5rem;
+        }
+      }
+      .jeanette {
+        padding-block-end: 2rem;
+      }
+      .patrick {
+        padding-block-end: 2rem;
+      }
+      .kira {
+        padding-block-end: 2rem;
+      }
+    }
+  }
+}
